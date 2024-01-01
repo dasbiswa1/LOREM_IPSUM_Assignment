@@ -1,0 +1,65 @@
+body {
+	background-image: linear-gradient(70deg, #FFF6AD, #FFABF7);
+	margin: 0;
+	padding: 0;
+}
+
+#menu-bar {
+	height: 40px;
+	width: 40px;
+}
+
+header {
+	background-color: #FF7171;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 7vh;
+}
+.headerIcon {
+	font-weight: bold;
+	font-size: 25px;
+	margin-right: 80px;
+}
+
+main {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	align: center;
+}
+
+.content {
+	width: 50%;
+	height: auto;
+	padding: 80px;
+}
+h1 {
+	font-family: Arial;
+	font-size: 42pt;
+	font-weight: bold;
+	letter-spacing: 6px;
+	word-spacing: 8px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#verse {
+	font-family: 'open sans';
+	font-size: 14pt;
+	padding-bottom: 50px;
+}
+
+#robin {
+	width: 100%;
+	height: 100%;
+}
+
+button {
+	color: white;
+	font-size: 14pt;
+	background-color: #FF7171;
+	width: 40%;
+	height: 6vh;
+	border: 0;
+}
